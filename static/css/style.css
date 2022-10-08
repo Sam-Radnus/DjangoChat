@@ -1,12 +1,17 @@
+body{
+    background-color: #252331;
+}
 div#name{
    position: absolute;
    top:50%;
    left:50%;
    transform: translate(-50%,-50%);
-   background-color: rgb(106, 106, 235);
-   height:40vh;
+   background-color: #2f2e36;
+   height:fit-content;
+
    width:50vw;
    padding:5vw;
+
 }
 div#name h1{
     color:white;
@@ -14,4 +19,71 @@ div#name h1{
 }
 div#name button{
     margin-left:45%;
+}
+
+div#message{
+    width:50vw;
+    position: absolute;
+    top:10%;
+    left:30%;
+}
+div#message div{
+    display: flex;
+}
+div#message div button{
+    margin-right: 20vw;
+}
+input{
+    width:40vw; 
+    border-radius:5px;
+    height:50px;
+    border:solid white;
+    background-color:#252331 ;
+    color:white;
+    padding: 10px;
+    border-width:1px;
+}
+h1#room_name{
+    text-align: center;
+}
+
+
+button{
+  background-color: #57D2A4;
+  margin-top:10px;
+  color:white;
+  margin-left: 10px;
+  padding:5px;
+  border-radius: 10px;
+}
+div#message_box{
+    position: absolute;
+    top:30%;
+    left:22%;
+    background-color:#1B1827;
+    border-radius: 5px;
+    height:max-content;
+    min-height: 75vh;
+    width:50vw;
+    padding:10px;
+}
+div#me
+{
+    background-color:#57D2A4;
+    border-radius: 5px;
+    color:white;
+    width:fit-content;
+    padding:10px;
+    margin:25px;
+    margin-left:40vw;
+
+}
+div#room_message{
+    background-color:#343048;
+    border-radius: 5px;
+    color:white;
+    width:fit-content;
+    padding:10px;
+    margin:25px;
+
 }
