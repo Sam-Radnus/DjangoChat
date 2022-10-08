@@ -1,0 +1,17 @@
+div#name{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   background-color: rgb(106, 106, 235);
+   height:40vh;
+   width:50vw;
+   padding:5vw;
+}
+div#name h1{
+    color:white;
+    text-align: center;
+}
+div#name button{
+    margin-left:45%;
+}
