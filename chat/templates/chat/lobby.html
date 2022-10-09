@@ -29,7 +29,7 @@
         console.log(room_name.value);
         console.log(user_name.value);
         sessionStorage.setItem('username',user_name.value);
-        window.location.href = `http://127.0.0.1:8000/${room_name.value}`;
+        window.location.href = `${window.location.href}/${room_name.value}`;
     }
 </script>
 </html>
