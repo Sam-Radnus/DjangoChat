@@ -12,7 +12,7 @@
 <body>
   <div id="name">
     <h1>Enter your Name</h1>
-    <input id="text"  type="text" placeholder="Enter your Name"/>
+    <input id="text1"  type="text" placeholder="Enter your Name"/>
     <h1>Enter a Room Name</h1>
     <input id="room_name"  type="text" placeholder="Enter a Room Name"/>
     <button id="button" type="submit"><b>Submit</b></button>
@@ -22,14 +22,14 @@
 </body>
 <script>
     var room_name=document.getElementById('room_name');
-    var user_name=document.getElementById('text');
+    var user_name=document.getElementById('text1');
     var btn=document.getElementById('button');
     btn.addEventListener('click',handle_click)
     function handle_click(){
         console.log(room_name.value);
         console.log(user_name.value);
         sessionStorage.setItem('username',user_name.value);
-        window.location.href = `${window.location.href}/${room_name.value}`;
+        window.location.href = `${window.location.href}${room_name.value}`;
     }
 </script>
 </html>
